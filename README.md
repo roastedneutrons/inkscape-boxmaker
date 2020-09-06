@@ -1,18 +1,19 @@
 # BoxMaker
 
-(Note: This Github Repository is unofficial. It should be considered a fork of the original 
-BoxMaker at http://www.keppel.demon.co.uk/111000/111000.html)
+(Note: This is a fork of https://github.com/hellerbarde/inkscape-boxmaker)
 
 A free tool for creating boxes using tabbed construction
 
 version 0.85 - February 27 2012 
 
-please report bugs, comments etc to bugs@twot.eu
+version 0.86 - Sep 6 2020
+
+please raise an issue on github if you find bugs
 
 # About
 
 This tool is designed to simplify and speed up process of making practical boxes using
-a laser cutter (though it can be used with any CNC cutter)  to prepare the pieces.
+a laser cutter to prepare the pieces.
 
 The tool works by generating a drawing of the pieces of the box with the tab and hole
 size corrected to account for the kerf (width of cut), these pieces are composed of sides,
@@ -21,21 +22,18 @@ grouped together.
 
 # Release Notes
 
-So far no serious bugs( i.e causing runtime errors ) have been found.
-The program works with python versions 2.6.5, 2.6.7 and 2.7.2, other version have not yet 
-been tried except python 2.5.1 which fails with a syntax error.
-
-This version has been tried on windows XP, windows 7, Ubuntu and Mac OS X with no 
-serious problems (the live preview works most of the time but can be flaky).
-
 Only crude input checking has been implemented in the program but as the only output 
 is a drawing the worst that can happen is a messed up picture 
 (control-Z cures that problem).
 
 # To Do
  
-Improve program documentation. Improve input checking to restrict values to correct 
+- Improve program documentation. Improve input checking to restrict values to correct 
 solutions.
+
+- Correct for large kerf correctly for use with CNC mills
+
+- Use 'dogbones' for inner corners
 
 # Use
 
@@ -97,3 +95,5 @@ how far apart the pieces are in the drawing produced
      0.5    ( 9 oct 2011)   beta
      0.7    (24 oct 2011)   first release
      0.8    (26 oct 2011)   basic input checking implemented
+     0.85   (Feb 27 2012)   (hellerbarde)
+     0.86   (6 Sep 2020)    Ported to Inkscape 1.0 (roastedneutrons)
