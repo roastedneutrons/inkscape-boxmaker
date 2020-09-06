@@ -38,7 +38,7 @@ solutions.
 # Use
 
 The interface is pretty self explanatory, the extension is 'Tabbed Box Maker' in the 
-'Laser Tools' group (hopefully more tools will soon(ish) join it).
+'CNC Tools' group.
 
 In order of appearance:
 

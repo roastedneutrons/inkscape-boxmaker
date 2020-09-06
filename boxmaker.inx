@@ -9,7 +9,7 @@
     <option value="in">in</option>
   </param>
 
-  <param name="inside" type="optiongroup" _gui-text="Box Dimensions">
+  <param name="inside" type="optiongroup" _gui-text="Box Dimensions" appearance="combo">
     <_option value="1">Inside</_option>
     <_option value="0">Outside</_option>
   </param>
@@ -19,7 +19,7 @@
   <param name="depth" type="float" precision="3"  min="0.0" max="10000.0" _gui-text="Height">1.0</param>
   <param name="tab" type="float" precision="2" min="0.0" max="10000.0" _gui-text="Minimum/Prefered Tab Width">1.0</param> 
 
-  <param name="equal" type="optiongroup" _gui-text="Tab Width">
+  <param name="equal" type="optiongroup" _gui-text="Tab Width" appearance="combo">
     <_option value="0">Fixed</_option>
     <_option value="1">Proportional</_option>
   </param>
